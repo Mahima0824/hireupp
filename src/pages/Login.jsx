@@ -10,6 +10,7 @@ import {
   FaKey,
 } from "react-icons/fa";
 import { useAuth } from "../context/AuthContext";
+import Logo from "../assets/logo.svg"
 
 const Login = () => {
   const [email, setEmail] = useState("john@gmail.com");
@@ -35,7 +36,7 @@ const Login = () => {
             <div className="relative bg-white/90 dark:bg-gray-700/90 backdrop-blur-sm rounded-2xl p-3 shadow-lg border border-white/20 dark:border-gray-600/20 group-hover:scale-105 group-hover:shadow-primary/25 transition-all duration-500">
               <img
                 className="w-full h-full object-contain animate-float drop-shadow-xl"
-                src="/logo.svg"
+                src={Logo}
                 alt="HireUpp Logo"
               />
             </div>
