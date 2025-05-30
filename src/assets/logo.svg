@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle with gradient -->
+  <circle cx="256" cy="256" r="248" fill="url(#paint0_linear)" stroke="url(#paint1_linear)" stroke-width="16"/>
+  
+  <!-- Briefcase base -->
+  <path d="M156 186H356C367.046 186 376 194.954 376 206V346C376 357.046 367.046 366 356 366H156C144.954 366 136 357.046 136 346V206C136 194.954 144.954 186 156 186Z" fill="white"/>
+  
+  <!-- Briefcase handle -->
+  <path d="M226 166C226 160.477 230.477 156 236 156H276C281.523 156 286 160.477 286 166V186H226V166Z" fill="white"/>
+  
+  <!-- Arrow -->
+  <path d="M256 216L316 276L296 296L266 266V336H246V266L216 296L196 276L256 216Z" fill="url(#paint2_linear)"/>
+  
+  <!-- Definitions for gradients -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="256" y1="0" x2="256" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear" x1="256" y1="0" x2="256" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="paint2_linear" x1="256" y1="216" x2="256" y2="336" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+</svg>
